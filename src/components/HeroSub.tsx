@@ -6,32 +6,24 @@ function HeroSub() {
       <Profile />
       <div className="pt-10 lg:flex flex-col gap-3">
         <h1 className="text-white font-bold text-2xl lg:text-4xl">
-          I’m Setane Essame
+          I’m Ngongnou Yann
         </h1>
         <p className="mt-5 text-sm lg:text-xl lg:text-wrap">
           I design digital products with <br className="hidden lg:inline" />
           great experience.
         </p>
-        <div className="flex gap-2 items-center lg:gap-5">
-          <div className="flex gap-1 pt-4 lg:w-30">
-            <div className="bg-third rounded-s-sm text-[10px] lg:w-80/100 lg:h-10 flex justify-center items-center h-8 w-15 shadow shadow-[0px_0px_25px_rgba(243,80,52,_0.8)]">
-              <h1 className="font-bold text-white text-xm lg:text-base">
+        <div className="mt-4 flex gap-2 md:justify-start mt-8">
+          <div className="flex items-center gap-[.1rem]">
+              <button className="bg-[#E63E21] text-xs lg:text-[16px] h-[2.5rem] text-white lg:h-[2.5rem] px-3 py-1 rounded-l-lg">
                 Hire me
-              </h1>
-            </div>
-            <div className="bg-third rounded-r-sm lg:text-base h-8 w-8 text-xm text-white font-bold flex justify-center items-center shadow shadow-third shadow shadow-[0px_0px_25px_rgba(243,80,52,_0.8)] lg:w-20/100 lg:h-10">
+              </button>
+            <button className="flex items-center bg-[#E63E21] justify-center text-white w-[1.8rem] h-[2.5rem] lg:h-[2.5rem] rounded-r-lg text-lg lg:text-xl">
               +
-            </div>
+            </button>
           </div>
-          <div className="flex gap-1 pt-4 lg:w-30">
-            <div className="bg-primary rounded-s-sm h-8 w-15 flex items-center justify-center lg:w-80/100 lg:h-10">
-              <h1 className="ont-bold text-white text-[10px] lg:text-base">
-                Copy Email
-              </h1>
-            </div>
-            <div className="bg-primary rounded-r-sm h-8 w-8 flex items-center justify-center lg:w-20/100 lg:h-10">
-              <img src="./assets/img/copie.svg" alt="" className="" />
-            </div>
+         <div className="flex items-center gap-[.1rem]">
+            <button className="bg-[#161616] border text-xs h-[2.5rem] lg:h-[3rem] border-[#363636] px-3 py-2 rounded-l-lg">Copy Email</button>
+            <button className="bg-[#161616] border border-[#363636] px-2 py-2 rounded-r-lg "><img src="public/ph_copy.svg" alt="" className="w-[1.2rem] h-[1.4rem] lg:h-[1.9rem]" /></button>
           </div>
         </div>
       </div>

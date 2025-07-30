@@ -1,12 +1,12 @@
-import Profle from "/profile-pic.png";
+import Profle from "/young-man-avatar.avif";
 
 function Profile() {
   return (
-    <div className="bg-[#2C2C2C] size-25 rounded-full flex items-center justify-center lg:size-40 md:size-35">
+    <div className="bg-primary border border-3 border-[#363636] size-30 rounded-full mr-2 flex items-center justify-center lg:size-45 md:size-35">
       <img
         src={Profle}
-        alt=""
-        className="rounded-full size-22 lg:size-35 md:size-30"
+        alt="YVAN-DEV profile"
+        className="rounded-full size-22 lg:size-40 md:size-30"
       />
     </div>
   );
